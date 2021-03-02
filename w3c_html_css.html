@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>W3C, HTML, and CSS</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">How The Internet Works</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li>
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    How The Internet Works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="domain_ICANN.html">Domain names and ICANN</a>
+                    <a class="dropdown-item" href="ip_packets_routing.html">IP Addresses, Packets, Routing</a>
+                    <a class="dropdown-item" href="dns.html">DNS</a>
+                    <a class="dropdown-item" href="http.html">HTTP & HTTPS Protocols</a>
+                    <a class="dropdown-item" href="w3c_html_css.html">W3C HTML and CSS<span class="sr-only">(current)</span></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>W3C, HTML, and CSS</h1>
+    <hr>
+    <div class="d-flex justify-content-center">
+        <img src="image/html.png" style="height: 400px; padding: 10px">
+    </div>
+    <hr>
+    <h3>W3C</h3>
+    <div class="row">
+        <p>
+            &emsp; The W3C stands for the World Wide Web Consortium. It is an international standards organization for the World Wide Web.
+            Their main purpose is to develop new standards for adoption by members so that communication over the internet is adherent to a set standard.
+            Web standards created by the W3C are then adopted by hardware manufacturers and software developers which ensures their products properly work with all Web technologies.
+            This ensures that those products can interpret the latest versions of HTML and CSS.
+            This facilitates Web compatibility and a more consistent experience across different browsers.
+            The W3C also provides standards for media on the Web which covers graphics, video, and audio.
+            They also develop standards for Web applications, Web scripting, and dynamic content.
+            The W3C provides privacy and security guidelines that websites should follow to allow secure communication.
+        </p>
+    </div>
+    <h3>HTML</h3>
+    <div class="row">
+        <p>
+            &emsp; HTML stands for Hyper Text Markup Language.
+            It is the standard markup language for creating Web pages and describes the structure of a Web page.
+            HTML consists of a series of elements that tell the browser how to display the content.
+            Web browsers get HTML documents from a web server or from local storage. They then render the documents into multimedia web pages.
+            HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        </p>
+    </div>
+    <h3>CSS</h3>
+    <div class="row">
+        <p>
+            &emsp; CSS stands for Cascading Style Sheets
+            It describes how HTML elements are displayed and can control the layout of multiple web pages at once.
+            External stylesheets made up of CSS are stored in CSS files.
+            CSS is used for describing the presentation of Web pages, including colors, layout, and fonts.
+            Layouts can be customized using CSS to adapt to different displays such as a mobile device or a computer screen.
+            CSS is separate from HTML and can be used with any XML-based markup language.
+            This makes it easier to customize and maintain sites, share style sheets across pages, and tailor pages to different environments.
+        </p>
+    </div>
+    <div class="row">
+        <p>
+            Below is a very simple example of a portion of an HTML document illustrates how to create a hypertext link within a div.
+            When interpreted by a web browser, the link text will display the word Sample but when clicked,
+            the browser will redirect the user to the website with the following web address: http://www.temp.com/sample
+        </p>
+    </div>
+    <div class="row">
+        <p>
+            The HTML code:<br>
+            < div class="sample"> The following link will provide more info:<br>
+            < a href="http://www.temp.com/sample">Sample< /a><br>
+            < /div><br><br>
+            Rendered Code: <br>
+        </p>
+    </div>
+    <div class="row">
+        <div class="sample"> The following link will provide more info:
+            <a href="http://www.temp.com/sample">Sample</a>
+        </div>
+    </div>
+    <div class="row">
+        <p><br>
+            The class attribute can be used to add CSS style to the elements within the div.
+            To change the font to be italic, the following CSS could be used:<br><br>
+
+            div.sample2 { font-style: italic }
+        </p>
+    </div>
+    <div class="row">
+        <p><br>
+        <div class="sample2"> The following link will provide more info:
+            <a href="http://www.temp.com/sample">Sample</a>
+        </div>
+        <style>
+            div.sample2{ font-style: italic }
+        </style>
+        </p>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-6 col-md">
+            </div>
+            <div class="col-6 col-md">
+            </div>
+            <div class="col-6 col-md">
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>
