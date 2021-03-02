@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>How The Internet Works</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">How The Internet Works</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li>
+                <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    How The Internet Works
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="domain_ICANN.html">Domain names and ICANN</a>
+                    <a class="dropdown-item" href="ip_packets_routing.html">IP Addresses, Packets, Routing</a>
+                    <a class="dropdown-item" href="dns.html">DNS</a>
+                    <a class="dropdown-item" href="http.html">HTTP & HTTPS Protocols</a>
+                    <a class="dropdown-item" href="w3c_html_css.html">W3C HTML and CSS</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h1>IP Addresses, Packets and Routing</h1>
+    <hr>
+    <div class="d-flex justify-content-center">
+        <img src="image/packet.png" style="height: 400px"> 
+    </div>
+    <hr>
+    <div class="row">
+        <p>
+            &emsp;The internet is a design philosophy expressed in the set of protocols. All devices on the internet have an address that is encoded by a number. This is called the IP address. The IP address is important for internet communication because when computers need to send information to one another, they need to know where to send it. The IP Addresses are 32 bits long. The IP address has the encoded country/network of origin, region/network, subnetwork, and device.
+        <p>
+            &emsp; Information does not travel through the internet in a direct fashion. The information is broken down into multiple packets and each packet has the IP address of where it came from and the destination it is supposed to reach. Routers act as traffic managers on the internet and keep the packets moving. If one route is too congested, it will decide on another route for the packet to take. Having options for paths keeps the network fault tolerant or in other words reliable.
+
+        </p>
+    </div>
+    <div class="row">
+        <h2>Definitions</h2>
+    </div>
+    <div class="row">
+        <ul>
+            <li>
+                <p><b>IP Address </b> - An IP address is a unique address that identifies a device on the internet or a local network.</p>
+            </li>
+            <li>
+                <p><b>Packet</b> - A packet is a small amount of data sent over a network, such as a LAN or the Internet. Similar to a real-life package, each packet includes a source and destination as well as the content (or data) being transferred.</p>
+            </li>
+            <li>
+                <p><b>Routing</b> - Network routing is the process of selecting a path across one or more networks.</p>
+            </li>
+        </ul>
+    </div>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-6 col-md">
+            </div>
+            <div class="col-6 col-md">
+            </div>
+            <div class="col-6 col-md">
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>
